@@ -5,77 +5,67 @@ Texto del formulario: #728099
 Gradiente morado: linear-gradient(#76278F, #2B1E66);*/
 
 * {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
-
-*:before, *:after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
-
 body {
-	margin:0 auto;
-	padding:0;
-	height: 100%;
-	width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
-
-.backimg{
-	background-image: url("../assets/images/hero.gif");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	width:100%;
-	height: 750px;
+.backimg {
+    background-image: url("../assets/images/hero.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 750px;
 }
-
 .navbar {
-	position: fixed;
-	z-index: 1;
-	width: 100%;
-	background-color: red;
-	height: 117px;
-	top:0px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: red;
+    height: 117px;
+    top: 0px;
 }
-
 .navbar li {
-	list-style-type: none;
+    list-style-type: none;
 }
-
 .navbar li a {
-	position: relative;
-	text-decoration: none;
-	float:right;
-	font-size: 19px;
-	color: #fff;
-	padding-left:30px;
-	right: 320px;
-	font-family: 'Montserrat', sans-serif;
-	top: 34px;
+    position: relative;
+    text-decoration: none;
+    float: right;
+    font-size: 19px;
+    color: #fff;
+    padding-left: 30px;
+    right: 320px;
+    font-family: 'Montserrat', sans-serif;
+    top: 34px;
 }
-
-.icon img{
-	position: absolute;
-	display: block;
-	top:28%;
-	left:64px;
+.icon img {
+    position: absolute;
+    display: block;
+    top: 28%;
+    left: 64px;
 }
-
 .box2 {
-	position: absolute;
-	width: 557px;
-	height: 420px;
-	background-color: yellow;
-	left: 786px;
-	top: 115px;
-
+    position: absolute;
+    width: 557px;
+    height: 420px;
+    left: 786px;
+    top: 115px;
+    background: #fff;
 }
-
 .logbutton {
-    background-color: blue;
     border: solid;
     color: white;
     border-width: 1px;
@@ -91,46 +81,93 @@ body {
     font-size: 18px;
     position: absolute;
     left: 1058px;
-    top:36px;
+    top: 36px;
 }
-
 .box2inside {
-	position: absolute;
-	width: 269px;
-	height: 130px;
-	background-color: blue;
-	font-size: 12px;
-	left: 65px;
-	top:68px;
-	font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    width: 269px;
+    height: 130px;
+    font-size: 12px;
+    left: 65px;
+    top: 68px;
+    font-family: 'Montserrat', sans-serif;
 }
-
 h1 {
-	font-size: 40px;
-	padding: 0;
-	margin:0;
-	font-weight: 500;
-	letter-spacing: -1px;
-	line-height: 40px;
-	color: #352384;
-
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 40px;
+    color: #352384;
 }
-
 h2 {
-	font-size: 16px;
-	letter-spacing: -1px;
-	font-weight: 500;
-	padding-top: 10px;
-	margin:0;
-	color: #352384;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    padding-top: 10px;
+    margin: 0;
+    color: #352384;
 }
-
 input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
+    width: 436px;
+    padding: 10px 0px;
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
-    background-color: #fff;
-    color: #E4E8EF;
+    border-bottom: 1px solid #352384;
+    color: #728099;
+    left: 65px;
+    top: 190px;
+    position: absolute;
+    letter-spacing: 0.8px;
+    font-size: 15px;
+
+}
+
+a.bdriver {
+    background-color: #FF00BF;
+    border: solid;
+    color: white;
+    border-width: 1px;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    right: 322px;
+    top: 265px;
+    color: #fff;
+    position: absolute;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 0.3px;
+
+}
+
+.signup {
+	position: relative;
+	left: 258px;
+	top:284px;
+	color: #728099;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.formtext {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 9.5px;
+	width: 288px;
+	height: 33px;
+	top: 310px;
+	left: 65px;
+	color: #728099;
+	line-height: 22px;
+	letter-spacing: 0.2px;
 }
