@@ -20,20 +20,24 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
+    background: linear-gradient(#76278F, #2B1E66);
+
 }
-.backimg {
+div.backimg {
     background-image: url("../assets/images/hero.gif");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+    width: 1343px;
     height: 750px;
+    background-position: 0px -105px;
+    background-size: 100%;
+    padding: 0;
 }
+
 .navbar {
     position: fixed;
     z-index: 1;
     width: 100%;
-    background-color: red;
+    background-color: transparent;
     height: 117px;
     top: 0px;
 }
@@ -47,7 +51,7 @@ body {
     font-size: 19px;
     color: #fff;
     padding-left: 30px;
-    right: 320px;
+    right: 308px;
     font-family: 'Montserrat', sans-serif;
     top: 34px;
 }
@@ -55,13 +59,13 @@ body {
     position: absolute;
     display: block;
     top: 28%;
-    left: 64px;
+    left: 85px;
 }
 .box2 {
     position: absolute;
-    width: 557px;
+    width: 537px;
     height: 420px;
-    left: 786px;
+    left: 806px;
     top: 115px;
     background: #fff;
 }
@@ -80,7 +84,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     position: absolute;
-    left: 1058px;
+    left: 1068px;
     top: 36px;
 }
 .box2inside {
@@ -97,12 +101,12 @@ h1 {
     padding: 0;
     margin: 0;
     font-weight: 500;
-    letter-spacing: -1px;
+    letter-spacing: -0.9px;
     line-height: 40px;
     color: #352384;
 }
 h2 {
-    font-size: 16px;
+    font-size: 15.6px;
     letter-spacing: -1px;
     font-weight: 500;
     padding-top: 10px;
@@ -140,7 +144,7 @@ a.bdriver {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     position: absolute;
-    right: 322px;
+    right: 305px;
     top: 265px;
     color: #fff;
     position: absolute;
@@ -170,4 +174,12 @@ a.bdriver {
 	color: #728099;
 	line-height: 22px;
 	letter-spacing: 0.2px;
+}
+
+.box3 {
+	height: 643px;
+	width: 100%;
+	position: absolute;
+	top:651px;
+	/*background-color: red;*/
 }
