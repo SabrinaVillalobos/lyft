@@ -20,14 +20,14 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(#76278F, #2B1E66);
+    font-family: 'Montserrat', sans-serif;
 
 }
 div.backimg {
     background-image: url("../assets/images/hero.gif");
     background-repeat: no-repeat;
     width: 1343px;
-    height: 750px;
+    height: 645px;
     background-position: 0px -105px;
     background-size: 100%;
     padding: 0;
@@ -52,7 +52,6 @@ div.backimg {
     color: #fff;
     padding-left: 30px;
     right: 308px;
-    font-family: 'Montserrat', sans-serif;
     top: 34px;
 }
 .icon img {
@@ -81,7 +80,6 @@ div.backimg {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 7px;
-    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     position: absolute;
     left: 1068px;
@@ -94,7 +92,6 @@ div.backimg {
     font-size: 12px;
     left: 65px;
     top: 68px;
-    font-family: 'Montserrat', sans-serif;
 }
 h1 {
     font-size: 40px;
@@ -141,7 +138,6 @@ a.bdriver {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 7px;
-    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     position: absolute;
     right: 305px;
@@ -159,13 +155,10 @@ a.bdriver {
 	left: 258px;
 	top:284px;
 	color: #728099;
-	font-family: 'Montserrat', sans-serif;
-
 }
 
 .formtext {
 	position: relative;
-	font-family: 'Montserrat', sans-serif;
 	font-size: 9.5px;
 	width: 288px;
 	height: 33px;
@@ -177,9 +170,183 @@ a.bdriver {
 }
 
 .box3 {
-	height: 643px;
+	height: 570px;
 	width: 100%;
 	position: absolute;
-	top:651px;
-	/*background-color: red;*/
+	top:635px;
+	background:linear-gradient(#691B84, #2B1E66);
+
+}
+
+.aride {
+	height: 33px;
+	width: 272px;
+	color: #fff;
+	position: absolute;
+	font-size: 30px;
+	letter-spacing: -0.1px;
+	left: 160px;
+	font-weight: 500;
+	letter-spacing: -1.6px;
+    top: -15px;
+
+}
+
+.aridetext {
+	position: absolute;
+	color: #fff;
+	font-weight: lighter;
+	height: 54px;
+	width: 413px;
+	left: 160px;
+	top:58px;
+	line-height: 20px;
+    font-size: 15.7px;
+    letter-spacing: 0.1px;
+
+}
+
+.phone {
+    position: absolute;
+	left: 720px;
+    bottom: 150px;
+    top:-10px;
+
+}
+.safety {
+    height: 33px;
+    width: 351px;
+    color: #fff;
+    position: absolute;
+    font-size: 30px;
+    letter-spacing: -0.1px;
+    left: 160px;
+    font-weight: 500;
+    letter-spacing: -1.6px;
+    top: 145px;
+}
+.safetext {
+    position: absolute;
+    color: #fff;
+    font-weight: lighter;
+    height: 54px;
+    width: 420px;
+    left: 160px;
+    top:215px;
+    line-height: 20px;
+    font-size: 15.7px;
+    letter-spacing: 0.1px;
+}
+.happyr{
+    height: 33px;
+    width: 235px;
+    color: #fff;
+    position: absolute;
+    font-size: 30px;
+    letter-spacing: -0.1px;
+    left: 160px;
+    font-weight: 500;
+    letter-spacing: -1.6px;
+    top: 295px;
+}
+.happyrtext {
+    position: absolute;
+    color: #fff;
+    font-weight: lighter;
+    height: 54px;
+    width: 473px;
+    left: 160px;
+    top:405px;
+    line-height: 20px;
+    font-size: 15.7px;
+    letter-spacing: 0.1px;
+}
+
+.box4 {
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top:1205px;
+
+}
+
+.textbox4 {
+    position: absolute;
+    width: 334px;
+    height: 173px;
+    left: 55px;
+    top: 30px;
+    line-height:24px;
+}
+
+.textbox4 p{
+    font-size: 11px;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: -1px;
+}
+
+.textbox4 h5 {
+    font-size: 30px;
+    margin:0;
+    font-weight: 500;
+    padding-bottom: 28px;
+    letter-spacing: -1px;
+}
+
+.textbox4-2 {
+    position: absolute;
+    width: 334px;
+    height: 173px;
+    left: 955px;
+    top: 525px;
+    line-height:24px;
+}
+
+.textbox4-2 p{
+    font-size: 11px;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: -1px;
+}
+
+.textbox4-2 h5 {
+    font-size: 30px;
+    margin:0;
+    font-weight: 500;
+    padding-bottom: 28px;
+    letter-spacing: -1px;
+}
+
+
+.textbox4-3 {
+    position: absolute;
+    width: 334px;
+    height: 173px;
+    left: 55px;
+    top: 1025px;
+    line-height:24px;
+}
+
+.textbox4-3 p{
+    font-size: 11px;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: -1px;
+}
+
+.textbox4-3 h5 {
+    font-size: 30px;
+    margin:0;
+    font-weight: 500;
+    padding-bottom: 28px;
+    letter-spacing: -1px;
+}
+
+.box5 {
+    height: 513PX;
+    width: 100%;
+    background-color:  #333447;
+    position: absolute;
+    top:1504px;
 }
