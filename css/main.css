@@ -343,10 +343,28 @@ a.bdriver {
     letter-spacing: -1px;
 }
 
-.box5 {
+.footer {
     height: 513PX;
     width: 100%;
     background-color:  #333447;
     position: absolute;
     top:1504px;
+    color:#fff;
+}
+.footertxt {
+    position: absolute;
+    height: 251px;
+    width: 607px;
+    background-color: red;
+    top:60px;
+    left: 130px;
+    column-count: 3;
+    line-height: 45px;
+}
+
+.footertxt h3{
+    background-color: blue;
+    color: #fff;
+    size: 10px;
+    margin-top: 0;
 }
