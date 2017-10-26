@@ -21,7 +21,6 @@ body {
     height: 100%;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-
 }
 div.backimg {
     background-image: url("../assets/images/hero.gif");
@@ -32,7 +31,6 @@ div.backimg {
     background-size: 100%;
     padding: 0;
 }
-
 .navbar {
     position: fixed;
     z-index: 1;
@@ -123,9 +121,7 @@ input[type=text] {
     position: absolute;
     letter-spacing: 0.8px;
     font-size: 15px;
-
 }
-
 a.bdriver {
     background-color: #FF00BF;
     border: solid;
@@ -147,71 +143,60 @@ a.bdriver {
     font-size: 15px;
     font-weight: lighter;
     letter-spacing: 0.3px;
-
 }
-
 .signup {
-	position: relative;
-	left: 258px;
-	top:284px;
-	color: #728099;
+    position: relative;
+    left: 258px;
+    top: 284px;
+    color: #728099;
 }
-
 .formtext {
-	position: relative;
-	font-size: 9.5px;
-	width: 288px;
-	height: 33px;
-	top: 310px;
-	left: 65px;
-	color: #728099;
-	line-height: 22px;
-	letter-spacing: 0.2px;
+    position: relative;
+    font-size: 9.5px;
+    width: 288px;
+    height: 33px;
+    top: 310px;
+    left: 65px;
+    color: #728099;
+    line-height: 22px;
+    letter-spacing: 0.2px;
 }
-
 .box3 {
-	height: 570px;
-	width: 100%;
-	position: absolute;
-	top:635px;
-	background:linear-gradient(#691B84, #2B1E66);
-
+    height: 570px;
+    width: 100%;
+    position: absolute;
+    top: 635px;
+    background: linear-gradient(#691B84, #2B1E66);
 }
-
 .aride {
-	height: 33px;
-	width: 272px;
-	color: #fff;
-	position: absolute;
-	font-size: 30px;
-	letter-spacing: -0.1px;
-	left: 160px;
-	font-weight: 500;
-	letter-spacing: -1.6px;
+    height: 33px;
+    width: 272px;
+    color: #fff;
+    position: absolute;
+    font-size: 30px;
+    letter-spacing: -0.1px;
+    left: 160px;
+    font-weight: 500;
+    letter-spacing: -1.6px;
     top: -15px;
-
 }
-
 .aridetext {
-	position: absolute;
-	color: #fff;
-	font-weight: lighter;
-	height: 54px;
-	width: 413px;
-	left: 160px;
-	top:58px;
-	line-height: 20px;
+    position: absolute;
+    color: #fff;
+    font-weight: lighter;
+    height: 54px;
+    width: 413px;
+    left: 160px;
+    top: 58px;
+    line-height: 20px;
     font-size: 15.7px;
     letter-spacing: 0.1px;
-
 }
-
 .phone {
     position: absolute;
-	left: 720px;
+    left: 720px;
     bottom: 150px;
-    top:-10px;
-
+    top: -10px;
 }
 .safety {
     height: 33px;
@@ -232,12 +217,12 @@ a.bdriver {
     height: 54px;
     width: 420px;
     left: 160px;
-    top:215px;
+    top: 215px;
     line-height: 20px;
     font-size: 15.7px;
     letter-spacing: 0.1px;
 }
-.happyr{
+.happyr {
     height: 33px;
     width: 235px;
     color: #fff;
@@ -256,147 +241,165 @@ a.bdriver {
     height: 54px;
     width: 473px;
     left: 160px;
-    top:405px;
+    top: 405px;
     line-height: 20px;
     font-size: 15.7px;
     letter-spacing: 0.1px;
 }
-
 .box4 {
     height: 500px;
     width: 100%;
     position: absolute;
-    top:1205px;
-
+    top: 1205px;
 }
-
 .textbox4 {
     position: absolute;
     width: 334px;
     height: 173px;
     left: 55px;
     top: 30px;
-    line-height:24px;
+    line-height: 24px;
 }
-
-.textbox4 p{
+.textbox4 p {
     font-size: 11px;
     font-weight: 500;
     margin: 0;
     letter-spacing: -1px;
 }
-
 .textbox4 h5 {
     font-size: 30px;
-    margin:0;
+    margin: 0;
     font-weight: 500;
     padding-bottom: 28px;
     letter-spacing: -1px;
 }
-
 .textbox4-2 {
     position: absolute;
     width: 334px;
     height: 173px;
     left: 955px;
     top: 525px;
-    line-height:24px;
+    line-height: 24px;
 }
-
-.textbox4-2 p{
+.textbox4-2 p {
     font-size: 11px;
     font-weight: 500;
     margin: 0;
     letter-spacing: -1px;
 }
-
 .textbox4-2 h5 {
     font-size: 30px;
-    margin:0;
+    margin: 0;
     font-weight: 500;
     padding-bottom: 28px;
     letter-spacing: -1px;
 }
-
-
 .textbox4-3 {
     position: absolute;
     width: 334px;
     height: 173px;
     left: 55px;
     top: 1025px;
-    line-height:24px;
+    line-height: 24px;
 }
-
-.textbox4-3 p{
+.textbox4-3 p {
     font-size: 11px;
     font-weight: 500;
     margin: 0;
     letter-spacing: -1px;
 }
-
 .textbox4-3 h5 {
     font-size: 30px;
-    margin:0;
+    margin: 0;
     font-weight: 500;
     padding-bottom: 28px;
     letter-spacing: -1px;
 }
-
 .footer {
-    height: 612PX;
+    height: 549PX;
     width: 100%;
-    background-color:  #333447;
+    background-color: #333447;
     position: absolute;
-    top:1450px;
-    color:#fff;
+    top: 1450px;
+    color: #fff;
 }
-
 div.footertxt {
     position: absolute;
     height: 251px;
     width: 800px;
-    top:60px;
+    top: 60px;
     left: 130px;
     column-count: 3;
     line-height: 45px;
     padding-left: 10px;
     font-weight: lighter;
-
 }
-
-.footertxt h3{
+.footertxt h3 {
     color: #fff;
-    size: 10px;
     margin-top: 0;
     font-weight: 400;
-    margin:0;
+    margin: 0;
     padding-bottom: 10px;
 }
-
+div.footertxt a {
+    color: #fff;
+    text-decoration: none;
+}
+div.footertxt a:hover{
+    color:#FF00BF;
+    text-decoration: underline;
+}
 .appsicons {
-    width:133px; 
+    width: 133px;
     position: absolute;
     right: 285px;
     top: 73px;
 }
-
 .appsicons img {
     margin: 16px;
+    cursor: pointer;
 }
-
 div.line {
     position: absolute;
-    height: 73px;
+    height: 60px;
     width: 765px;
-    background-color: red;
-    top:430px;
+    top: 430px;
     left: 302px;
     border-top: thin solid white;
     text-align: center;
-    text-align: 
 }
-
 div.line p {
-    height: 72px;
+    position: relative;
+    top: 30px;
+}
+.icons {
+    position: absolute;
+    top: 378px;
+    left: 565px;
+}
+.icon-facebook:before {
+    font-size: 15px;
+    content: "\ea90";
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 9px;
+    margin-right: 63px;
+    cursor: pointer;
+}
+.icon-instagram:before {
+    font-size: 15px;
+    content: "\ea92";
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 9px;
+    margin-right: 63px;
+    cursor: pointer;
+}
+.icon-twitter:before {
+    font-size: 15px;
+    content: "\ea96";
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 9px;
+    cursor: pointer;
 }
