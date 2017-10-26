@@ -26,4 +26,6 @@ Gradiente morado: linear-gradient(#76278F, #2B1E66);
 ```
 Noté que el color #76278F no se difuminaba bien y la línea que separa el gif de fondo y el gradiente era muy notoria. Por esto lo cambié a #691B84.
 
+Para finalizar, revisé mi código HTML en [Validador de HTML, freeformatter](https://www.freeformatter.com/html-validator.html "validador HTML") y mi código CSS en [Validador de CSS, Jigsaw.w3](https://jigsaw.w3.org/css-validator/#validate_by_inputl "validador CSS").
+
 **¡IMPORTANTE!, el sitio fue hecho en una resolución de pantalla de 1360x768, usando Google Chrome como navegador.**
