@@ -14,7 +14,7 @@ body {
 div.backimg {
     background-image: url("../assets/images/hero.gif");
     background-repeat: no-repeat;
-    width: 1343px;
+    width: 1349px;
     height: 645px;
     background-position: 0px -105px;
     background-size: 100%;
@@ -41,15 +41,20 @@ div.backimg {
     right: 308px;
     top: 34px;
 }
+
+.navbar li a:hover {
+    color:#FF00BF;
+}
+
 .icon img {
     position: absolute;
     display: block;
     top: 28%;
     left: 85px;
 }
-.box2 {
+.box1 {
     position: absolute;
-    width: 537px;
+    width: 543px;
     height: 420px;
     left: 806px;
     top: 115px;
@@ -72,7 +77,11 @@ div.backimg {
     left: 1068px;
     top: 36px;
 }
-.box2inside {
+a.logbutton:hover {
+    color:#FF00BF;
+    border-color: #fff;
+}
+.box1inside {
     position: absolute;
     width: 269px;
     height: 130px;
@@ -150,7 +159,7 @@ a.bdriver {
     line-height: 22px;
     letter-spacing: 0.2px;
 }
-.box3 {
+.box2 {
     height: 570px;
     width: 100%;
     position: absolute;
@@ -235,13 +244,13 @@ a.bdriver {
     font-size: 15.7px;
     letter-spacing: 0.1px;
 }
-.box4 {
+.box3 {
     height: 500px;
     width: 100%;
     position: absolute;
     top: 1205px;
 }
-.textbox4 {
+.textbox3 {
     position: absolute;
     width: 334px;
     height: 173px;
@@ -249,20 +258,20 @@ a.bdriver {
     top: 30px;
     line-height: 24px;
 }
-.textbox4 p {
+.textbox3 p {
     font-size: 11px;
     font-weight: 500;
     margin: 0;
     letter-spacing: -1px;
 }
-.textbox4 h5 {
+.textbox3 h5 {
     font-size: 30px;
     margin: 0;
     font-weight: 500;
     padding-bottom: 28px;
     letter-spacing: -1px;
 }
-.textbox4-2 {
+.textbox3-2 {
     position: absolute;
     width: 334px;
     height: 173px;
@@ -270,20 +279,20 @@ a.bdriver {
     top: 525px;
     line-height: 24px;
 }
-.textbox4-2 p {
+.textbox3-2 p {
     font-size: 11px;
     font-weight: 500;
     margin: 0;
     letter-spacing: -1px;
 }
-.textbox4-2 h5 {
+.textbox3-2 h5 {
     font-size: 30px;
     margin: 0;
     font-weight: 500;
     padding-bottom: 28px;
     letter-spacing: -1px;
 }
-.textbox4-3 {
+.textbox3-3 {
     position: absolute;
     width: 334px;
     height: 173px;
@@ -291,13 +300,13 @@ a.bdriver {
     top: 1025px;
     line-height: 24px;
 }
-.textbox4-3 p {
+.textbox3-3 p {
     font-size: 11px;
     font-weight: 500;
     margin: 0;
     letter-spacing: -1px;
 }
-.textbox4-3 h5 {
+.textbox3-3 h5 {
     font-size: 30px;
     margin: 0;
     font-weight: 500;
@@ -338,13 +347,13 @@ div.footertxt a:hover{
     color:#FF00BF;
     text-decoration: underline;
 }
-.appsicons {
+.appsimg {
     width: 133px;
     position: absolute;
     right: 285px;
     top: 73px;
 }
-.appsicons img {
+.appsimg img {
     margin: 16px;
     cursor: pointer;
 }

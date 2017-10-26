@@ -7,7 +7,7 @@ Para este reto, se pidió replicar el sitio de Lyft (maquetado non responsive), 
 ## Flujo de trabajo
 
 Para este trabajo linkee el main.css, la fuente de Google Fonts con sus respectivos tamaños predeterminados y los iconos de icomoon.
- Dividí la página en 4 cajas div principales nombradas box1, box2, box3 y box4, les asigné colores de fondo llamativos para poder ver de forma más fácil la distribución de las distintas partes de la página y poder darles el tamaño necesario, una vez logrado quite este fondo.
+ Dividí la página en 3 cajas div principales nombradas box1, box2 y box3, les asigné colores de fondo llamativos para poder ver de forma más fácil la distribución de las distintas partes de la página y poder darles el tamaño necesario, una vez logrado quite este fondo.
  Cree un header, body y footer.
  El header contiene una lista no ordenada para crear la barra de navegación.
  
